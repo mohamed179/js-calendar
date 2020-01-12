@@ -1,0 +1,38 @@
+.calendar_container {
+    padding: 20px;
+}
+
+.calendar_container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar_container table thead th {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 14.285714286%;
+}
+.calendar_container table tbody {
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.calendar_container table tbody td {
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    width: 14.285714286%;
+}
+
+.calendar_container table tbody td div {
+    min-height: 70px;
+    padding: 5px;
+}
+
+.calendar_container table tbody td div:hover {
+    background-color: #d7f0f5;
+}
+
+.calendar_container .calendar_today div {
+    background-color: #ffc266;
+    font-weight: bold;
+}
